@@ -1,9 +1,9 @@
 import { Pkmn } from "./Pkmn";
-
+import "./style/PkmnList.css";
 const PkmnList = (props) => {
   return (
     <>
-      <ul>
+      <ul className="ul">
         {props.listOfPkmn.map((pkmn, i) => {
           return (
             <Pkmn

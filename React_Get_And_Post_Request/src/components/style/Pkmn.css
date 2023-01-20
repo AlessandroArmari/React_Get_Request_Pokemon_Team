@@ -1,0 +1,37 @@
+li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2vh;
+  background-color: rgba(241, 241, 144, 0.954);
+  gap: 3vh;
+  border: solid 5px rgb(255, 162, 0);
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 6vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-right: 2vh;
+  margin-left: 2vh;
+  padding: 2vh;
+  border: solid 1px rgb(255, 162, 0);
+  border-radius: 15px;
+  background-color: rgb(255, 162, 0);
+}
+
+div {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.lastDiv {
+  padding-bottom: 9px;
+}
+
+span {
+  font-weight: bolder;
+}

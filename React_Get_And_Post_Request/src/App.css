@@ -1,0 +1,15 @@
+.buttonSection {
+  display: grid;
+}
+
+button {
+  padding: 10px;
+  font-size: 3vh;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 50px;
+}
+
+.body {
+  background-color: antiquewhite;
+}
