@@ -5,7 +5,7 @@ li {
   padding: 2vh;
   background-color: rgba(209, 240, 235, 0.954);
   gap: 3vh;
-  border: solid 5px rgb(255, 162, 0);
+  border: solid 5px black;
   border-radius: 5px;
 }
 
@@ -18,7 +18,7 @@ h2 {
   margin-right: 2vh;
   margin-left: 2vh;
   padding: 2vh;
-  border: solid 1px rgb(255, 162, 0);
+  border: solid 5px black;
   border-radius: 15px;
   background-color: rgb(255, 162, 0);
 }
@@ -34,4 +34,11 @@ div {
 
 span {
   font-weight: bolder;
+}
+
+.sprite {
+  border: solid 5px black;
+  border-radius: 10px;
+  padding: 3px;
+  background-color: white;
 }

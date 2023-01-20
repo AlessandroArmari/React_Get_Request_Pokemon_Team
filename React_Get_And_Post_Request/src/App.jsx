@@ -13,7 +13,7 @@ function App() {
     try {
       const response = await fetch(
         //--->response is a promise!
-        "https://41c08f6e-537f-409f-be34-acffb4aa24c2.mock.pstmn.io/lance"
+        "https://ad42ea69-6901-43e3-a8b4-67bdeeeaf70b.mock.pstmn.io/lance"
       );
       if (!response.ok) {
         //check later!!!!
@@ -26,6 +26,7 @@ function App() {
           pokedexIndex: pkmn.pokedexIndex,
           type: pkmn.type,
           generation: pkmn.generation,
+          sprite: pkmn.sprite,
         }; //--->REMEMBER: YOU'RE GETTING THE LIST WICH IS THE VALUE OF THE FIRST PROPERTY (lanceTeam) OF DATA
       });
 
@@ -37,6 +38,8 @@ function App() {
 
     setIsLoading(false);
   }
+
+  //+++HERE the function "fetchOrderHandler" ends!
 
   let content = <div></div>; //NOT CONST--->BECAUSE IT CHANGES
 
@@ -66,7 +69,11 @@ function App() {
 
 export default App;
 
-//https://598af871-ba3e-45e4-bb7a-9a2734d63e54.mock.pstmn.io/lance/team
+//TO DO:
+
+// modifica stile waiting e errore
+
+//implementa your team!
 
 /*
 const content = [

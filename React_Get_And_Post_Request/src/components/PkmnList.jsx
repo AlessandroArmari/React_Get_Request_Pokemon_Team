@@ -12,6 +12,7 @@ const PkmnList = (props) => {
               pokedexIndex={pkmn.pokedexIndex}
               type={pkmn.type}
               generation={pkmn.generation}
+              sprite={pkmn.sprite}
             />
           );
         })}

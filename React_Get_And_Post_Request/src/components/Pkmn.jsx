@@ -14,6 +14,9 @@ const Pkmn = (props) => {
         <div className="lastDiv">
           <span>Generation:</span> {props.generation}
         </div>
+        <div>
+          <img className="sprite" src={props.sprite} alt={props.name} />
+        </div>
       </li>
     </>
   );
