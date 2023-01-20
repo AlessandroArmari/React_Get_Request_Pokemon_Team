@@ -3,7 +3,7 @@ li {
   flex-direction: column;
   text-align: center;
   padding: 2vh;
-  background-color: rgba(241, 241, 144, 0.954);
+  background-color: rgba(209, 240, 235, 0.954);
   gap: 3vh;
   border: solid 5px rgb(255, 162, 0);
   border-radius: 5px;
@@ -12,7 +12,7 @@ li {
 h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 6vh;
+  font-size: 4vh;
   margin-top: 2vh;
   margin-bottom: 2vh;
   margin-right: 2vh;

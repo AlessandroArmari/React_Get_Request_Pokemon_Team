@@ -1,5 +1,15 @@
+* {
+  margin: 0px;
+}
+
+.body {
+  background-color: rgb(255, 239, 59);
+}
+
 .buttonSection {
+  margin-top: 3vh;
   display: grid;
+  justify-items: center;
 }
 
 button {
@@ -8,8 +18,5 @@ button {
   background-color: black;
   color: aliceblue;
   border-radius: 50px;
-}
-
-.body {
-  background-color: antiquewhite;
+  width: 33%;
 }

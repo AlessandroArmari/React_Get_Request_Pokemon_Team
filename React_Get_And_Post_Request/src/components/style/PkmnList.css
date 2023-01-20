@@ -1,8 +1,8 @@
 .ul {
   display: grid;
-  grid-auto-columns: 27%;
   grid-template-columns: 30% 30% 30%;
   padding: 0;
+  padding-top: 3vh;
   gap: 7vh;
   margin-left: 5%;
   margin-right: 5%;
