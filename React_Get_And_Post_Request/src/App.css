@@ -1,11 +1,11 @@
 * {
-  background-color: rgba(247, 219, 76, 0.836);
+  background-color: rgb(240, 209, 54);
 }
 
 .content {
   text-align: center;
   margin-top: 5vh;
-  background-color: rgba(247, 219, 76, 0.836);
+  background-color: rgb(240, 209, 54);
 }
 
 .title {
@@ -19,14 +19,14 @@
   margin-top: 3vh;
   display: grid;
   justify-items: center;
-  background-color: rgba(247, 219, 76, 0.836);
+  background-color: rgb(240, 209, 54);
 }
 
 button {
   padding: 10px;
   font-size: 5vh;
   background-color: black;
-  color: rgba(247, 219, 76, 0.836);
+  color: rgb(255, 162, 0);
   border-radius: 50px;
   width: 33%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
