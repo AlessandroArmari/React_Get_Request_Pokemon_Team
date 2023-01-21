@@ -26,6 +26,7 @@ h2 {
 div {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(209, 240, 235, 0.954);
 }
 
 .lastDiv {
@@ -34,6 +35,7 @@ div {
 
 span {
   font-weight: bolder;
+  background-color: rgba(209, 240, 235, 0.954);
 }
 
 .sprite {

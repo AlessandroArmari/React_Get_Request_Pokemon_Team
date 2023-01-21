@@ -1,22 +1,63 @@
 * {
-  margin: 0px;
+  background-color: rgba(247, 219, 76, 0.836);
 }
 
-.body {
-  background-color: rgb(255, 239, 59);
+.content {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.title {
+  font-size: 7vh;
+  text-align: center;
+  margin-left: 44vh;
+  margin-right: 44vh;
 }
 
 .buttonSection {
   margin-top: 3vh;
   display: grid;
   justify-items: center;
+  background-color: rgba(247, 219, 76, 0.836);
 }
 
 button {
   padding: 10px;
-  font-size: 3vh;
+  font-size: 5vh;
   background-color: black;
-  color: aliceblue;
+  color: rgba(247, 219, 76, 0.836);
   border-radius: 50px;
   width: 33%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.loading {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 4vh;
+  padding: 2vh;
+  width: 40vh;
+  border: solid 5px black;
+  border-radius: 15px;
+  background-color: rgb(255, 162, 0);
+  text-align: center;
+}
+
+.error {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 4vh;
+  font-weight: bolder;
+  color: rgb(223, 82, 82);
+  margin-top: 8vh;
+  margin-bottom: 2vh;
+  margin-right: 5vh;
+  margin-left: 40%;
+  padding: 2vh;
+  width: 40vh;
+  border: solid 5px black;
+  border-radius: 15px;
+  background-color: rgb(34, 64, 235);
+  text-align: center;
 }

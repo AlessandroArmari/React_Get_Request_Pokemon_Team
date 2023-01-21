@@ -17,7 +17,7 @@ function App() {
       );
       if (!response.ok) {
         //check later!!!!
-        throw new Error("I am an Error: Something went wrong");
+        throw new Error("ERROR: Something went wrong");
       }
       const data = await response.json();
       const dataMapped = data.lanceTeam.map((pkmn) => {
@@ -41,26 +41,31 @@ function App() {
 
   //+++HERE the function "fetchOrderHandler" ends!
 
-  let content = <div></div>; //NOT CONST--->BECAUSE IT CHANGES
+  let content; //NOT CONST--->BECAUSE IT CHANGES
 
   if (team.length > 0) {
     content = <PkmnList listOfPkmn={team} />;
   }
 
   if (isLoading) {
-    content = <p>Is Loading...</p>;
+    content = <span className="loading">Is Loading...</span>;
   }
 
   if (error) {
-    content = <p>{error}</p>;
+    content = <div className="error">{error}</div>;
   }
 
   return (
-    <div className="body">
-      <section>
+    <div>
+      <section className="content">
+        {team.length > 0 && (
+          <h2 className="title">Lance's Team in Pkmn Red </h2>
+        )}
         {content}
         <div className="buttonSection">
-          <button onClick={fetchOrderHandler}>Show Lance Team</button>
+          {!content && ( //--->IF CONTENT is NUll, shows---> button
+            <button onClick={fetchOrderHandler}>Show Lance Team</button>
+          )}
         </div>
       </section>
     </div>
@@ -68,12 +73,6 @@ function App() {
 }
 
 export default App;
-
-//TO DO:
-
-// modifica stile waiting e errore
-
-//implementa your team!
 
 /*
 const content = [
